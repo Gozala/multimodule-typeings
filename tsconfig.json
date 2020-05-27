@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noEmitHelpers": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "target": "ES5",
+    "outDir": "./dist/"
+  },
+  "exclude": ["dist"],
+  "include": ["src", "node_modules/**/*.d.ts"],
+  "compileOnSave": false
+}
